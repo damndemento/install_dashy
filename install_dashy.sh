@@ -8,7 +8,7 @@ apt update
 apt install -y nodejs
 apt update && apt upgrade -y
 # remove cmdtest
-apt remove cmdtest
+apt remove --purge cmdtest
 apt autoremove
 # prepare yarn installation
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
