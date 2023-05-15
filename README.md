@@ -1,5 +1,5 @@
 # Script to install Dashy
-Bash script to install dashy on debian 11!
+Bash script to install Dashy on Debian 11!
 
 To install Dashy on Debian 11 (Bullseye) using this script please use the following steps:
 
