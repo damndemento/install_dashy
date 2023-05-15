@@ -1,3 +1,14 @@
+#!/bin/bash
+
+# exit script on errors:
+set -o errexit
+
+#-----------------------------------------
+# this script installs dashy on debian 11.
+# if installed on proxmox or lxc container
+# make sure to use 2 CPUs & 1024Mb RAM!
+#-----------------------------------------
+
 # first update the system
 apt update && apt full-upgrade
 # install required packages.
