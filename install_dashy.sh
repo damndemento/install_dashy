@@ -50,6 +50,7 @@ Alias=Dashy
 EOF
 # enable the service for systemctl
 systemctl enable dashy
+# starting dashy.service
 systemctl start dashy
 echo congratulations, script finished without errors!
 echo open your browser with <container-ip>:4000 to configure dashy...
