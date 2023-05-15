@@ -1,9 +1,9 @@
 # Script to install Dashy
-Bash script to install dashy inside a debian 11 container using lxc or proxmox!
+Bash script to install dashy on debian 11!
 
 To install Dashy on Debian 11 (Bullseye) using this script please use the following steps:
 
-- create a Debian 11 container with at least 1024Mb RAM and 2 CPUs.<br>
+- if using an lxc or proxmox container make sure to create a Debian 11 container with at least 1024Mb RAM and 2 CPUs.<br>
 - if curl is not installed do it by executing:<br>
 ```apt update && apt install -y curl```<br>
 - download this script using curl:<br>
